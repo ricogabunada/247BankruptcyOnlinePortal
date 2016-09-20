@@ -1,0 +1,8 @@
+notes:
+
+1. in database, what is rank? is it equal to position/job title?
+2. how did they put value to expid in empskills table ?	in old code, they put:
+							$ExpID	 = 1; if ($Skcid == 19) $ExpID = 0;
+	but how come there is other values rather than 1 and 0????
+
+3. hires temps meaning

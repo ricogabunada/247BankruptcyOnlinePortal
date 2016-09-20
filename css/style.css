@@ -1,0 +1,289 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,600);
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
+body{
+	font-family: 'Open Sans', sans-serif!important;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Montserrat', sans-serif!important;
+}
+
+.content-wrapper h1, .content-wrapper h2, .content-wrapper h3, .content-wrapper h4, .content-wrapper h5, .content-wrapper h6{
+    color: #4C5259!important;
+}
+
+.user-img img {
+    height: 100px;
+}
+
+ul.sidebar-menu a {
+    font-family: 'Montserrat', sans-serif!important;
+    font-size: 11px;
+}
+
+h5.user-name {
+    font-weight: 600;
+}
+
+.user-panel {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.content-wrapper {
+    padding: 50px;
+}
+
+.panel.panel-default {
+    border-radius: 0px;
+}
+
+.btn-green {
+    background-color: #2db200;
+    color: #fff;
+    /*margin: 29px 0;*/
+    padding: 14px 33px!important;
+    border-radius: 0px!important;
+}
+
+.btn-green:hover {
+    background-color: #269002!important;
+    color: #fff!important;
+}
+
+.btn-blue {
+    background-color: #246FA6;
+    color: #fff;
+    /*margin: 29px 0;*/
+    padding: 14px 33px!important;
+    border-radius: 0px!important;
+}
+
+.btn-blue:hover {
+    background-color: #1F5E8C!important;
+    color: #fff!important;
+}
+
+form#login {
+    margin: 50% auto;
+}
+
+a#editbtnprofile {
+    cursor: pointer;
+}
+
+span.logo-lg h3 {
+    margin: 15px;
+    font-size: 18px;
+}
+
+.wrapper {
+    background-color: #fff!important;
+}
+
+li.dropdown.user.user-menu a {
+    border-left: 2px solid #2B73A4;
+}
+
+img.user-image.pull-right {
+    margin-left: 10px;
+}
+
+section.content-header h1 {
+    font-size: 35px;
+}
+
+label {
+    margin-top: 5px;
+    margin-bottom: 0px!important;
+}
+
+/*form#application .btn-green, form#application .btn-blue {
+    margin: 6px 15px;
+}*/
+
+.panel-footer {
+    background-color: #E8E8E8!important;
+}
+
+.panel-body {
+    padding-bottom: 30px!important;
+    background-color: #F3F3F3;
+}
+
+.nopad div {
+    padding: 0px 2px;
+}
+
+img.fa {
+    padding-right: 10px;
+}
+
+.nav-tabs-custom>.nav-tabs>li.active>a{
+    background-color: #D3E2ED!important;
+}
+
+ul.nav.nav-tabs {
+    border-top: 1px solid #ddd;
+}
+
+ul.nav.nav-tabs li {
+    margin-top: -1px;
+}
+
+li.active {
+    border-right: none!important;
+}
+
+.content-wrapper h3 {
+    margin-top: 40px!important;
+}
+
+/*form#master .state, form#master .address, form#master .city {
+    padding: 0px!important;
+}*/
+
+table.datatable tr th {
+    background-color: #D3E2ED;
+}
+
+.btn-violet {
+    background-color: #252976;
+    color: #fff!important;
+    border-radius: 0px!important;
+    margin-top: 12px!important;
+    padding: 15px 20px!important;
+}
+
+textarea#comments {
+    height: 150px;
+}
+
+.comments {
+    margin-top: 40px;
+    border: 1px solid #ddd!important;
+}
+
+.sidebar-menu li.active {
+    background-color: #272C32;
+    border-left: 4px solid #246FA6;
+}
+
+ul.sidebar-menu {
+    margin-top: 30px;
+}
+
+a.logo {
+    position: fixed;
+}
+
+form#addjob .panel-footer .btn-default {
+    background-color: #323840;
+    border-radius: 0px;
+    color: #fff;
+    padding: 15px 30px;
+}
+
+form#addjob .btn {
+    margin: 0px;
+}
+
+form#payrolladdworks .btn-primary,form#admincreatefunction .btn-primary,form#adminsearchfunction .btn-primary {
+    /*margin-top: 44px;*/
+    margin-top: 24px;
+    border-radius: 0px;
+}
+
+a.btn.btn-gray {
+    background-color: #323840;
+    color: #fff;
+    /*margin: 29px 0;*/
+    padding: 14px 33px!important;
+    border-radius: 0px!important;
+}
+
+button.btn.btn-gray {
+    background-color: #323840;
+    color: #fff;
+    /* margin: 29px 0; */
+    padding: 14px 33px!important;
+    border-radius: 0px!important;
+}
+
+.functionsonchange{
+    display: none;
+}
+
+div.searchfunctiononchange {
+    display: none;
+}
+
+form#editprofile .btn,
+form#master .btn,
+form#customers .btn {
+    margin-top: 25px;
+}
+
+/*added by rico*/
+a.btn.btn-blue {
+    margin-top: 5px!important;
+}
+#recruitingprocess {
+    resize:vertical; /*will prevent resizing horizontally*/
+    height: 35px;
+    min-height: 35px!important;
+}
+textarea {
+    resize:vertical; /*will prevent resizing horizontally*/
+}
+
+/*rico loading gif onload test*/
+#page {
+    display: none;
+}
+#loading {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(192, 192, 192, 0.5);
+    background-image: url("/img/ajax-loader.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.loadcustomerdata {
+    background-image:url("/img/ajax-loader2.gif");
+    background-repeat:no-repeat;
+    background-position:center;
+    height:200px;
+    z-index: 99;
+
+}
+/*rico datatable collapse color*/
+table.dataTable.dtr-inline.collapsed > tbody > tr > td:first-child:before, table.dataTable.dtr-inline.collapsed > tbody > tr > th:first-child:before {
+    background-color: #3185BF!important;
+}
+/*rico customize upload button*/
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.fileUpload.btn.btn-info.btn-flat {
+    background-color: #3185BF!important;
+    border: #3185BF!important;
+}
+
+/*rico added css for datatable*/
+div#DataTables_Table_0_filter {
+    margin-top: 10px;
+}

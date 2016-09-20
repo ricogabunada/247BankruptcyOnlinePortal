@@ -1,0 +1,137 @@
+REXSTAFFING REPORTS: 
+
+
+
+
+/*******************************************************************/
+format: (found in [URL]) -> (what module/link>) -> (which php file is used?)
+	DESCRIPTION: //description
+/*******************************************************************/
+
+
+
+
+
+
+----------------------------------------------------------------
+
+1. (localhost/mainMenu.php) -> (PAYROLL section >> Weekly Hours Report) -> (totalHoursReport.php)
+
+   DESCRIPTION :  - http://localhost/totalHoursReport.php?weekend=12/20/2015
+		  - Onchange sa weekending, mugawas ang table sa 
+                    employees by Customer, I guess adto ni magkuha
+                    ug data sa `emphours` table
+		  - With import/download to CSV 
+
+----------------------------------------------------------------
+
+2. (localhost/mainMenu.php) -> (PAYROLL section >> Total Hours Summary) -> (totalHoursSummary.php)
+
+   DESCRIPTION :  - http://localhost/totalHoursSummary.php?weekend=12/20/2015&search=yes
+		  - onchange ghapun sa weekending, mugawas ang table sa
+		    customers and their total hours
+		  - no import/download to CSV
+
+-----------------------------------------------------------------
+
+3. (localhost/mainMenu.php) -> (PAYROLL section >> Monthly Hours Report) -> (monthlyhoursreport.php)
+
+   DESCRIPTION :  - http://localhost/monthlyhoursreport.php
+		  - automatically detect current month
+		  - displays all the employees by customers and their monthly reports
+		  - no import/download to CSV
+
+-----------------------------------------------------------------
+
+4. (localhost/mainMenu.php) -> (PAYROLL section >> Yearly Hours Report) -> (yearlyhoursreport.php)
+
+   DESCRIPTION :  - http://localhost/yearlyhoursreport.php?year=2015&search=yes
+		  - onchange sa select year
+		  - almost the same sa totalhourssummary, nakalahi lang yearly cea
+		  - no import/download to CSV
+
+----------------------------------------------------------------
+
+5. (localhost/mainMenu.php) -> (PAYROLL section >> New Hires Report) -> (newyearlyhoursreport.php)
+
+   DESCRIPTION :  - http://localhost/newhires.php?from=02/07/2014&to=02/07/2016&search=yes&download=statusReports/new-hires-report-1454782911.csv&count=1856
+		  - select week start and week end, gawas ang table, i think adto ni kuhaon sa workhistory nga table
+		  - with import/download to CSV
+
+----------------------------------------------------------------
+
+6. (localhost/mainMenu.php) -> (PAYROLL section >> Hours Report With A Date Range) -> (hoursreportbydate.php)
+
+   DESCRIPTION :  - http://localhost/hoursreportbydate.php?from=02/10/2013&to=02/10/2016&search=yes
+		  - select date range, gawas ang table, i think adto ni kuhaon sa emphoursdetail nga table
+		  - with import/download to CSV
+
+
+
+
+
+
+
+----------------------------------------------------------------
+
+7. (localhost/mainMenu.php) -> (REPORTS section >> No of Employee By Customer Name) -> (employeesbycustomer.php)
+
+   DESCRIPTION :  - http://localhost/employeesbycustomer.php
+		  - see screenshot please
+		  - no import/download to CSV
+
+----------------------------------------------------------------
+
+8. (localhost/mainMenu.php) -> (REPORTS section >> No of Employees by City) -> (employeesbycity.php)
+
+   DESCRIPTION :  - http://localhost/employeesbycity.php
+		  - see screenshot please
+		  - no import/download to CSV
+
+----------------------------------------------------------------
+
+9. (localhost/mainMenu.php) -> (REPORTS section >> No of Employee by Age) -> (employeesbyage.php)
+
+   DESCRIPTION :  - http://localhost/employeesbyage.php
+		  - see screenshot please
+		  - no import/download to CSV
+
+----------------------------------------------------------------
+
+10. (localhost/mainMenu.php) -> (REPORTS section >> No of Employee by Language) -> (employeesbylanguage.php)
+
+   DESCRIPTION :  - http://localhost/employeesbylanguage.php
+		  - see screenshot please
+		  - no import/download to CSV
+
+----------------------------------------------------------------
+
+11. (localhost/mainMenu.php) -> (REPORTS section >> Weekly Birthday Report) -> (weeklybirthday.php)
+
+   DESCRIPTION :  - http://localhost/employeesbylanguage.php
+		  - see screenshot please
+		  - no import/download to CSV
+
+----------------------------------------------------------------
+
+12. (localhost/mainMenu.php) -> (REPORTS section >> Monthly Hires Report) -> (monthlyhire.php)
+
+   DESCRIPTION :  - http://localhost/employeesbylanguage.php
+		  - see screenshot please
+		  - no import/download to CSV
+
+----------------------------------------------------------------
+
+13. (localhost/mainMenu.php) -> (REPORTS section >> Hire Report With A Date Range) -> (hirebydate.php)
+
+   DESCRIPTION :  - http://localhost/hirebydate.php?from=1392012000&to=1455170399
+		  - select date range, see screenshot please
+		  - no import/download to CSV
+
+----------------------------------------------------------------
+
+14. (localhost/mainMenu.php) -> (REPORTS section >> Companies Accepting Temps) -> (companiesAcceptingTemps.php)
+
+   DESCRIPTION :  - http://localhost/hirebydate.php?from=1392012000&to=1455170399
+		  - see screenshot please
+		  - no import/download to CSV
